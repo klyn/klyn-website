@@ -1,0 +1,27 @@
+
+.content-block {
+  width: 70vw;
+  padding: 1.5rem 15vw;
+  font-size: 1.4rem;
+  clear: both;
+}
+
+.content-block--light {
+  background-color: #FFF;
+}
+
+.content-block--dark {
+  color: #FFF;
+  background-color: #1d1e21;
+}
+
+.content-block a {
+  border-bottom: 1px solid #1d1e21;
+}
+
+@media all and (max-width: 500px) {
+  .content-block {
+    width: 90vw;
+    padding: 1rem 5vw;
+  }
+}

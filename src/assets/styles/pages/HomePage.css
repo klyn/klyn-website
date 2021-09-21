@@ -1,0 +1,13 @@
+.never-forgotten-showcase-cover {
+  height: 40vh;
+  background-image: url('../../project-photos/never-forgotten/IMG_3293-low.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+@media all and (min-width: 1250px) {
+  .never-forgotten-showcase-cover {
+    height: 45vh;
+  }
+}

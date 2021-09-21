@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.no-list-style {
+  list-style-type: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.no-list-style li {
+  display: inline-block;
+}
+
+a, a:active, a:visited {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  /*font-family: 'Anton', sans-serif;*/
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.page-heading {
+  margin: 2rem 0 4rem 0;
+}
+
+.page-heading-title {
+  display: block;
+  font-size: 3rem;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 0.4rem;
+}
+
+.page-heading-subtitle {
+  width: 100%;
+  text-align: center;
+  display: block;
+  letter-spacing: 0.2rem;
+  font-size: 1.2rem;
+  text-decoration: overline;
+}
